@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css or src/App.css */
+@import "~font-awesome/css/font-awesome.min.css";
+/* styles.css */
+
+.custom-text {
+  font-family: "raleway", sans-serif;
+}
+
+.custom-fonts {
+  font-family: "Russo-one", sans-serif;
+}
+
+.all {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 917px) {
+  .button-hide {
+    display: none;
+  }
+}
+
+.banner-area {
+  margin-top: 84px;
+  border: 1px solid black;
+}
+
+.banner {
+  background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+}
+
+.banner-section {
+  margin-top: 80px;
+  background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+}
+
+button:hover {
+  background: #00095e;
+  color: white;
+}
+
+.routes:hover {
+  color: #041cf1db;
+  transition: all 0.2s;
+}
+
+img {
+  height: 400px;
+}
+
+.color {
+  color: #ff4495;
+}
+
+.background {
+  background: #ff4495;
+}
+
+.box-shadow {
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.shadow {
+  background: white;
+  color: black;
+}
+
+.shadow:hover {
+  background: linear-gradient(to right, #00095e 0%, #0c0c1f 100%);
+  color: white;
+}
+
+.form {
+  position: relative;
+  width: 50%;
+  display: block
+}
+
+@media screen and (max-width: 746px) {
+  .form {
+    position: relative;
+    width: 100%;
+    display: block
+  }
+}
+
+
+.flexProduct {
+  position: relative;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 50px;
+}
+
+.image {
+  width: 180px;
+  height: 200px;
+}
+
+.bgColor {
+  background-color: #ff4495;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  ;
+}
